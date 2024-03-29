@@ -1,0 +1,258 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	place-items: flex-start;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+}
+
+.button {
+	border-radius: 8px;
+	border: 3px solid transparent;
+	padding: 0.7em 1.4em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #1a1a1a;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+
+.back-button {
+	display: flex;
+	text-align: left;
+	margin-left: 0;
+	max-width: 100px;
+}
+
+.button:hover {
+	border-color: #646cff;
+}
+.button:focus,
+.button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button.active {
+	background-color: #646cff;
+}
+
+a.button {
+	text-decoration: none;
+	color: #646cff;
+	font-weight: bold;
+}
+
+a.button.active {
+	color: #1a1a1a;
+	font-weight: bold;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+nav .button {
+	width: 120px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 2rem auto;
+	max-width: 800px;
+	background-color: #2b2b2b;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul li {
+	display: flex;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.87);
+	border-bottom: 5px solid #242424;
+}
+
+ul li:last-child {
+	border-bottom: none;
+}
+
+ul li a {
+	color: #848cff;
+	text-decoration: none;
+	flex-grow: 1;
+	padding: 1rem;
+}
+
+ul li a:hover {
+	background-color: #323232;
+	border-radius: 5px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+article {
+	text-align: left;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+article h2 {
+	margin-bottom: 0;
+}
+article h4 {
+	margin-top: 0;
+	font-weight: 500;
+	font-style: italic;
+}
+
+article img {
+	max-width: 300px;
+	object-fit: contain;
+}
+
+a.recommendation-button {
+	margin-bottom: 10px !important;
+	display: block;
+}
+
+.form-field {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+label {
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.87);
+	flex-shrink: 0;
+	width: 20%;
+	text-align: right;
+}
+
+input,
+button {
+	flex-grow: 1;
+}
+
+form {
+	background-color: #323232;
+	padding: 2rem;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+	margin: 2rem auto;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 80%;
+	max-width: 600px;
+}
+
+form input,
+form button {
+	padding: 0.75em;
+	background-color: #242424;
+	border: 2px solid #646cff;
+	border-radius: 8px;
+	color: rgba(255, 255, 255, 0.87);
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+form input:focus,
+form button:focus {
+	border-color: #848cff;
+	box-shadow: 0 0 8px #646cff;
+	outline: none;
+}
+
+form button {
+	background-color: #1a1a1a;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+
+form button:hover {
+	border-color: #848cff;
+}
+
+form .button {
+	border: 3px solid transparent;
+}
+
+form input[type="submit"],
+form button[type="submit"] {
+	background-color: #646cff;
+	color: #1a1a1a;
+	font-weight: bold;
+}
+
+form input[type="submit"]:hover,
+form button[type="submit"]:hover {
+	background-color: #848cff;
+}
+
+form input::placeholder {
+	font-size: 1.1em;
+	color: rgba(255, 255, 255, 0.7);
+	opacity: 0.8;
+}
+
+.delete-button {
+	background-color: red;
+	border: none !important;
+	align-self: flex-start;
+	margin-top: 2rem;
+}
+
+.home {
+	text-align: left;
+}
+
+code {
+	font-family: "Fira Code", "Consolas", monospace;
+	background-color: #323232;
+	color: #ffd700;
+	padding: 0.25rem 0.5rem;
+	border-radius: 4px;
+	font-size: 0.95rem;
+}

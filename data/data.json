@@ -1,0 +1,155 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Grokking Algorithms",
+      "author": "Aditya Bhargava",
+      "cover_img": "https://m.media-amazon.com/images/I/81hveVIYkrL._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 2016,
+      "description": "An illustrated guide for programmers and other curious people to learn algorithms in a visual way."
+    },
+    {
+      "id": "2",
+      "title": "Pragmatic Programmer",
+      "author": "Andy Hunt & Dave Thomas",
+      "cover_img": "https://m.media-amazon.com/images/I/61ztlXgCmpL._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 1999,
+      "description": "Offers practical advice and principles for software developers to improve their coding practices and work."
+    },
+    {
+      "id": "3",
+      "title": "Eloquent JavaScript",
+      "cover_img": "https://m.media-amazon.com/images/I/81HqVRRwp3L._AC_UF1000,1000_QL80_.jpg",
+      "author": "Marijn Haverbeke",
+      "year_published": 2011,
+      "description": "A modern introduction to programming using JavaScript, covering concepts from basics to advanced topics."
+    },
+    {
+      "id": "4",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "cover_img": "https://m.media-amazon.com/images/I/51E2055ZGUL._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 2008,
+      "description": "A guide to writing clean, understandable, and maintainable code, focusing on best practices in software development."
+    },
+    {
+      "id": "5",
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, & Clifford Stein",
+      "cover_img": "https://m.media-amazon.com/images/I/61Pgdn8Ys-L._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 1990,
+      "description": "Comprehensive textbook covering a wide array of algorithms in depth, along with their analysis and design."
+    },
+    {
+      "id": "6",
+      "title": "Mythical Man-Month",
+      "author": "Frederick P. Brooks Jr.",
+      "cover_img": "https://m.media-amazon.com/images/I/71fCJWIx4UL._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 1975,
+      "description": "Essays on software engineering and project management, famous for its insights on the complexity of software development."
+    },
+    {
+      "id": "7",
+      "title": "The Self-Taught Programmer",
+      "author": "Cory Althoff",
+      "cover_img": "https://m.media-amazon.com/images/I/71p0nYVS6gL._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 2017,
+      "description": "A guide to programming and technical interviews for self-taught programmers."
+    },
+    {
+      "id": "8",
+      "title": "The Art of Computer Programming",
+      "author": "Donald E. Knuth",
+      "cover_img": "https://m.media-amazon.com/images/I/719SYGJejmL._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 1968,
+      "description": "A multi-volume work on algorithms and their analysis, regarded as one of the most comprehensive and detailed studies in computer science."
+    },
+    {
+      "id": "9",
+      "title": "The Phoenix Project",
+      "author": "Gene Kim, Kevin Behr, & George Spafford",
+      "cover_img": "https://m.media-amazon.com/images/I/914-sUgELZL._AC_UF1000,1000_QL80_.jpg",
+      "year_published": 2013,
+      "description": "A novel about IT, DevOps, and helping your business win, exploring the challenges and solutions in software development practices."
+    }
+  ],
+  "websites": [
+    {
+      "id": "1",
+      "name": "FreeCodeCamp",
+      "banner": "https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png",
+      "url": "https://www.freecodecamp.org",
+      "description": "Offers interactive coding lessons and projects in web development, algorithms, and data structures to earn certifications."
+    },
+    {
+      "id": "2",
+      "name": "Treehouse",
+      "banner": "https://upload.wikimedia.org/wikipedia/en/a/a3/Treehouse%27s_logo_%28Jan_2015%29.png",
+      "url": "https://teamtreehouse.com",
+      "description": "Provides video tutorials and interactive coding exercises in web design, web development, mobile development, and game development."
+    },
+    {
+      "id": "3",
+      "name": "Codecademy",
+      "banner": "https://getlogovector.com/wp-content/uploads/2020/11/codecademy-logo-vector.png",
+      "url": "https://www.codecademy.com",
+      "description": "Features interactive coding lessons in various programming languages, web development, data science, and more."
+    },
+    {
+      "id": "4",
+      "name": "Hacker Rank",
+      "banner": "https://www.yosuccess.com/wp-content/uploads/2015/01/HackerRank2.png",
+      "url": "https://www.hackerrank.com",
+      "description": "A platform for practicing coding, preparing for interviews, and participating in coding challenges."
+    },
+    {
+      "id": "5",
+      "name": "LeetCode",
+      "banner": "https://cdn.hashnode.com/res/hashnode/image/upload/v1636589930913/GUHhK3FKZ.jpeg",
+      "url": "https://leetcode.com",
+      "description": "Offers a vast collection of coding problems to improve coding skills and prepare for technical interviews."
+    },
+    {
+      "id": "6",
+      "name": "Khan Academy",
+      "banner": "https://balsersbulletin.weebly.com/uploads/3/7/4/6/37466509/713007698_orig.jpg",
+      "url": "https://www.khanacademy.org",
+      "description": "Provides free courses in various subjects, including computer programming with interactive exercises."
+    },
+    {
+      "id": "7",
+      "name": "YouTube",
+      "banner": "https://static.vecteezy.com/system/resources/previews/026/396/883/non_2x/play-button-youtube-youtube-video-icon-logo-symbol-red-banner-social-media-sign-mobile-app-web-video-free-vector.jpg",
+      "url": "https://www.youtube.com",
+      "description": "Hosts countless coding tutorials, courses, and lectures on programming and technology from various educators."
+    },
+    {
+      "id": "8",
+      "name": "Reddit",
+      "banner": "https://i.imgur.com/nqyB2SI.jpeg",
+      "url": "https://www.reddit.com",
+      "description": "Features communities like r/learnprogramming where users can share resources, advice, and get coding help."
+    },
+    {
+      "id": "9",
+      "name": "Hacker News",
+      "banner": "https://miro.medium.com/v2/resize:fit:1000/1*eessO5f7Bdflb4WprH75ow.jpeg",
+      "url": "https://news.ycombinator.com",
+      "description": "A social news website focusing on computer science and entrepreneurship, where users can find tech news, discussions, and coding resources."
+    },
+    {
+      "id": "10",
+      "name": "Chat GPT",
+      "banner": "https://images.ctfassets.net/mrsnpomeucef/6LxPTkYXKj4pDwSINXeCP3/9b27bb9e95ef81530719bf4505f4ed12/chatgpt-logo-header-banner.jpg",
+      "url": "https://chat.openai.com",
+      "description": "An AI-driven platform where users can ask coding questions, get explanations, and learn through interactive dialogues."
+    },
+    {
+      "id": "11",
+      "name": "google11",
+      "banner": "imagelink",
+      "url": "google.com",
+      "description": "lorem ipsum"
+    }
+  ]
+}
